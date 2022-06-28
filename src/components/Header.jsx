@@ -24,7 +24,7 @@ const Header = () => {
 		<Navbar sticky="top" bg="dark" variant="dark" style={{ height: "8vh" }}>
 			<Container fluid style={{ padding: "0 20px" }}>
 				<Navbar.Brand>
-					<Link to="/">Shopping Cart</Link>
+					<Link to="/">Elegant Store</Link>
 				</Navbar.Brand>
 				<Navbar.Text className="search">
 					<FormControl
@@ -57,7 +57,7 @@ const Header = () => {
 											/>
 											<div className="basket__item-details">
 												<span>{prod.name}</span>
-												<span>{prod.price}</span>
+												<span>$ {prod.price}</span>
 											</div>
 											<AiFillDelete
 												fontSize="20px"
